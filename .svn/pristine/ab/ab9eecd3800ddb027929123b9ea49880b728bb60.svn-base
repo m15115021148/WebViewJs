@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta charset="utf-8" />
+		<meta name="viewport"content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<title>定位信息采集</title>
+		<script type="text/javascript">
+			function refresh(){
+				javascript:android.refresh();
+			}
+    	</script>
+		<style type="text/css">
+			.icon{
+				width: 150px;
+				height: 150px;
+				border-radius: 100px;
+				background-color: #fbf2eb;
+				margin: 0px auto;
+				margin-top: 70px;
+				background-image: url("wlyc_03.png");
+				background-repeat: no-repeat;
+				background-size: 60%;
+				background-position: center;
+			}
+			.title{
+				text-align: center;
+				font-size: 24px;
+				color: #e5403d;
+				margin-top: 30px;
+			}
+			.text{
+				text-align: center;
+				color: #acacac;
+			}
+			.refresh{
+				width: 150px;
+				height: 150px;
+				border-radius: 100px;
+				background-color: #d8e1fe;
+				margin: 0px auto;
+				margin-top: 100px;
+				color: #5e7ecf;
+				text-align: center;
+				line-height: 150px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="icon"></div>
+		<div class="title">网络异常</div>
+		<div class="text">请检查网络后刷新</div>
+		<div class="refresh" onclick="refresh()">
+			点击刷新
+		</div>
+	</body>
+</html>
+
+
